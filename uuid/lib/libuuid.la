@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/opt/com/64/uuid-64/lib'
+libdir='/opt/com/uuid/lib'

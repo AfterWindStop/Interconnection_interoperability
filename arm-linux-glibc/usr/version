@@ -1,0 +1,7 @@
+CHIP ZX279128
+GCC 4.9.4
+ARCH ARM CortexA9 
+glibc 2.26
+pthread:NPTL
+linux kernel-4.1.25
+build date 20181126
