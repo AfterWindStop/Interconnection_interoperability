@@ -1,0 +1,36 @@
+{
+	"device": {
+		"deviceName": "zxic_gw",
+		"type": "gateway",
+		"terminalId": "081112010136383E83A4B101AE0",
+		"busType": "local bus",
+		"busId": "id1",
+		"dev": "br0",
+		"topology": ["081112010136383E83A4B101AE0"],
+		"service": [{
+			"sid": 1,
+			"property": [{
+				"pid": 1,
+				"readable": true,
+				"writeable": false,
+				"propertyValue": {
+					"ipaddr": {
+						"type": "string",
+						"description": "ip地址"
+					},
+					"dns": {
+						"type": "array",
+						"items": [{
+							"type": "string",
+							"description": "xxx"
+						}],
+						"description": "yyy"
+					}
+				},
+				"description": "ip addr config"
+			}],
+			"method": [],
+			"event": []
+		}]
+	}
+}
